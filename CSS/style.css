@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,latin-ext);
+body {
+  font-family: 'Ubuntu Condensed';
+  margin: 0 auto;
+  padding: 0; }
+  body ul {
+    list-style-type: none; }
+  body img {
+    width: 100%;
+    height: auto; }
+  body a:link {
+    text-decoration: none; }
+  body a:hover {
+    text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 0;
+  color: white;
+  background-image: url("../img/bg.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 38%;
+  padding-right: 10%;
+  padding-left: 10%;
+  position: relativel; }
+  header .container {
+    padding-right: 10%;
+    padding-left: 10%; }
+
+section {
+  padding: 2% 10% 2% 10%; }
+
+.description .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .description .flex-container .box {
+    width: 300px;
+    height: 300px;
+    flex-grow: 2;
+    border: 1px solid yellow; }
+
+.about-section {
+  background-color: #E7E7E7; }
+
+.price-plan {
+  background-color: #E7E7E7;
+  padding-bottom: 27%;
+  text-align: center; }
+  .price-plan p {
+    padding: 2% 0 2%; }
+
+.priece-table {
+  display: table;
+  padding-top: 2%; }
+
+.product {
+  width: 25%;
+  float: left;
+  border: 1px solid #fff;
+  background: #eee;
+  border: 1px solid #fff; }
+  .product .name > h3 {
+    background-color: #3598DB;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 3px #000; }
+  .product .price {
+    text-align: center;
+    line-height: 30px;
+    font-size: 2em;
+    margin: 0 auto; }
+  .product .parameters {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 20px;
+    border-top: 1px dashed #E7E7E7;
+    border-bottom: 1px dashed #E7E7E7;
+    color: #000;
+    font-size: 0.9em;
+    text-align: center; }
+    .product .parameters li {
+      padding: 5px; }
+    .product .parameters :nth-child(odd) {
+      background: #E7E7E7; }
+    .product .parameters :nth-child(even) {
+      background: #eee; }
+  .product .buy {
+    background-color: #3598DB;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 0 3px #000; }
+
+.socialmedia {
+  text-align: center; }
+  .socialmedia p {
+    color: #ABACAC; }
+
+footer {
+  background-color: #E7E7E7;
+  color: #ABACAC;
+  text-align: center;
+  padding: 2% 10% 2% 10%; }
+  footer a:link {
+    color: #ABACAC; }
+  footer a:hover {
+    color: #000000; }
+  footer li {
+    display: inline-block;
+    padding-right: 2%; }
+
+/*# sourceMappingURL=style.css.map */
